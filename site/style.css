@@ -6,14 +6,19 @@ h1{
 	font-family: "Comic Sans MS";
 	font-size: 40px;
 	color: #ff0000
+
 }
 .box{
 	margin: 2px;
 	padding: 10px;
+	position: relative;
 }
 
 body{
 	background-color: white;	
+}
+#container{
+	position: relative;
 }
 
 .menu{
@@ -22,10 +27,10 @@ body{
 	text-align: center;
 	width: 30%;
 	float: right;
-	position: relative;
-	margin-right: 12px;
-    margin-top: 5px;
-    font-size: 20px;
+	position: absolute;
+	top: 0;
+	right: 0; 
+	font-size: 20px;
     font-family: "Comic Sans MS";
     font-weight: bold;
 
@@ -41,14 +46,14 @@ body{
   	  font-family: "Comic Sans MS";
   	  background-color: rgba(0,0,0,0.3); 
 }
-.no1{
+#no1{
 	background-color: #FFB6C1; 
 }
-.no2{
+#no2{
 	background-color: #FF0000; 
 	color: white;
 }
-.no3{
+#no3{
 	background-color: #FFFF00; 
 }
 @media (min-width: 992px){
